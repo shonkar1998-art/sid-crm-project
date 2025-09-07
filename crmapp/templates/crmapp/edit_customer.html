@@ -1,0 +1,10 @@
+{% extends 'crmapp/base.html' %}
+{% block title %}Edit Customer{% endblock %}
+{% block content %}
+<h1>Edit Customer: {{ customer.name }}</h1>
+<form method="post" class="form">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="btn">Update</button>
+</form>
+{% endblock %}
