@@ -7,7 +7,10 @@ SECRET_KEY = 'django-insecure-change-me-for-production'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["sid-crm-project.onrender.com", "www.smh.com"]
+
+
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
